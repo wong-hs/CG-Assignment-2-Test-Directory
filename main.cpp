@@ -15,7 +15,7 @@ void render()
 int main()
 {
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-	glutInitWindowSize(800, 600);
+	glutInitWindowSize(850, 650);
 	glutInitWindowPosition(50, 50);
 	glutCreateWindow("Hello OpenGL!");
 	glutDisplayFunc(render);
